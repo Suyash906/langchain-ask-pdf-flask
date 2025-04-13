@@ -5,7 +5,7 @@
 ### Sample cURL request
 ```
 curl --location 'http://127.0.0.1:5000/ask-pdf' \
---form 'pdf=@"/Users/suysrivastava/Downloads/AHMEDABAD_C-373-2010_06-07-2018.pdf"' \
+--form 'pdf=@"./sample.pdf"' \
 --form 'question="Summarize the document in 100 words."'
 ```
 
